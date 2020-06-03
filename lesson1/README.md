@@ -20,7 +20,13 @@
 **github的基本操作，养成良好的开源社区开发习惯**
 
 - star和watch substrate和polkadot的repo，并截屏
+
 - fork substrate到自己的repo，并给自己的repo提一个issue和PR，并截屏
+
+![avatar](./star_polkadot.png)
+![avatar](./star_substrate.png)
+![avatar](./test_PR.png)
+![avatar](./test_issue.png)
 
 
 
@@ -28,6 +34,7 @@
 
 **请编译第一节课中的node-template并截图编译成功的界面** (node-template链接： https://github.com/SubstrateCourse/substrate-node-template.git)
 
+![avatar](./build_node_template_release.png)
 
 
 #### 第四题
