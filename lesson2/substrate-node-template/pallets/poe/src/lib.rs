@@ -96,6 +96,8 @@ decl_module! {
                     ensure!(!Proofs::<T>::contains_key(&claim), Error::<T>::ProofAlreadyExist);
 		    ensure!(T::MaxClaimLength::get() >= claim.len() as u32, Error::<T>::ProofTooLong);
 
+                    Proofs::<T>::insert(&claim, (who.clone(), system::Module::<T>::block_number()));
+
                     Self::deposit_event(RawEvent::ClaimCreated(who, claim));
                     Ok(())
 		}
